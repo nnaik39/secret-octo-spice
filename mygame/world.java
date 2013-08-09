@@ -24,9 +24,9 @@ public class world extends World
 
     private void prepare()
     {
-        baby1 = new Player1();
+        baby1 = new Player1(1);
         addObject(baby1, 279, 176);
-        baby2 = new Player1();
+        baby2 = new Player1(2);
         addObject(baby2, 278, 309);
         baby1.setLocation(289, 99);
     }
